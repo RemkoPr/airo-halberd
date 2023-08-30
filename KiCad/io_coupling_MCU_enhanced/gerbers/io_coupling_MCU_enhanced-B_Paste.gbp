@@ -1,0 +1,22 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.1-3b83917a11~172~ubuntu22.04.1*
+G04 #@! TF.CreationDate,2023-08-11T16:57:34+02:00*
+G04 #@! TF.ProjectId,io_coupling_MCU_enhanced,696f5f63-6f75-4706-9c69-6e675f4d4355,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.1-3b83917a11~172~ubuntu22.04.1) date 2023-08-11 16:57:34*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,1.600000*%
+G04 APERTURE END LIST*
+D10*
+X1480000Y25000000D03*
+X-1060000Y25000000D03*
+X-3600000Y25000000D03*
+X-6140000Y25000000D03*
+X-8680000Y25000000D03*
+M02*
