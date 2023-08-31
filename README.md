@@ -7,6 +7,7 @@ The Halberd coupling, named after the characteristic shape of its PCB, is a repl
 
 This repo contains KiCad board files and SolidWorks casing design files. 
 </p>
+<BR CLEAR="?">
 
 ## Features
 TODO
