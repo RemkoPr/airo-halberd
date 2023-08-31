@@ -15,8 +15,11 @@ TODO
 TODO
 
 ## Usage
+### Programming
 To program the board, first install the [airo-nrf52840-boards](https://github.com/RemkoPr/airo-nrf52840-boards) package in your Arduino IDE. Compile the standard Blink example (File > Examples > 01.Basics > Blink) for the Halberd (I/O Coupling) board and flash the resulting .hex onto the board using a JLink EDU Mini. This will automatically flash the Arduino bootloader as well. As such, from this point on you can program the board straight form the Arduino IDE over a µUSB connection.
 
+### Mounting
+The Halberd coupling is mounted to your robotic arm just like the Robotiq I/O Coupling would, similarly your Robotiq gripper is bolted to the Halberd just like it would be to the Robotiq I/O Coupling. The Halberd has the same height as the Robotiq I/O Coupling, so there's no need to redefine the robot's tool centre point. Also, the risk of self-collisions is no greater than when using the Robotiq I/O Coupling.
 <img align="left" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
 <img align="left" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
