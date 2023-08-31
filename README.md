@@ -1,12 +1,12 @@
 <style>
-.fblogo {
+fblogo {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     height: 30px; 
 }
 
-#images{
+images{
     text-align:center;
 }
 </style>
