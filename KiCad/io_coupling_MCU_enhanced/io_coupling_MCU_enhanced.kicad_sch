@@ -3154,7 +3154,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12b15389-ed14-4cbf-bf78-104030d66e81)
   )
-  (text "LINK BETWEEN ROBOT DIGITAL\nI/O AND NINA?\nRS485 communication?\n\nORDER JLC04161H-7628 IMPEDANCE CONTROL\n(0.3mm ANT trace width corresponds to this)"
+  (text "ORDER JLC04161H-7628 IMPEDANCE CONTROL\n(0.35mm ANT trace width corresponds to this)"
     (at 157.48 78.74 0)
     (effects (font (size 5 5) (thickness 1) bold (color 255 0 6 1)) (justify left bottom))
     (uuid 3191360b-4c0d-42ee-a158-d7249de4c7bf)
@@ -3194,6 +3194,11 @@
   (text "1kV" (at 102.87 234.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 902ca283-b317-4eed-97c0-39dc46819e45)
+  )
+  (text "Possible additions:\nLink Tool I/O to Nina\nHook up Nina to RS485 bus"
+    (at 29.845 374.65 0)
+    (effects (font (size 5 5) (thickness 1) bold (color 255 0 6 1)) (justify left bottom))
+    (uuid 94e7208d-96a2-41a7-9952-536274cbb4d2)
   )
   (text "Series resistor values\ncalculated for a current\nusage of 2mA per diode"
     (at 376.555 259.08 0)
