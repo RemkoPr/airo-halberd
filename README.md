@@ -2,7 +2,7 @@
 
 The Halberd coupling, named after the characteristic shape of its PCB, is a replacement of the Robotiq I/O Coupling enhanced with a Nina B301 microcontroller, developed at [IDLab-AIRO](https://airo.ugent.be/), Ghent University (Belgium), imec.
 
-![alt text]([https://github.com/RemkoPr/icra-2023-workshop-tactile-fingertips/blob/main/cad/3d/collapsed_view.png](https://github.com/RemkoPr/airo-halberd/blob/main/img/halberd.jpeg))
+![alt text](https://github.com/RemkoPr/icra-2023-workshop-tactile-fingertips/blob/main/cad/3d/collapsed_view.png)
 This repo contains KiCad board files and SolidWorks casing design files. 
 
 ## Features
