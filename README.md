@@ -9,6 +9,7 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 
 <img align="left" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
 <img align="left" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
+<BR CLEAR="all">
 
 ## Features
 TODO
