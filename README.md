@@ -7,6 +7,8 @@ The Halberd coupling, named after the characteristic shape of its PCB, is a repl
 This repo contains KiCad board files and SolidWorks casing design files of the project. See below for a guide from ordering to usage. 
 <BR CLEAR="all">
 
+<img align="left" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
+<img align="left" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
 ## Features
 TODO
@@ -22,7 +24,4 @@ To program the board, first install the [airo-nrf52840-boards](https://github.co
 
 ### Mounting
 The Halberd coupling is mounted to your robotic arm just like the Robotiq I/O Coupling would, similarly your Robotiq gripper is bolted to the Halberd just like it would be to the Robotiq I/O Coupling. The Halberd has the same height as the Robotiq I/O Coupling, so there's no need to redefine the robot's tool centre point. Also, the risk of self-collisions is no greater than when using the Robotiq I/O Coupling.
-
-<img align="left" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
-<img align="left" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
