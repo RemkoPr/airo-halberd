@@ -12,6 +12,7 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 
 ## Features
 TODO
+<BR CLEAR="all">
 
 ## Ordering & Assembly
 The PCB was designed for **[JLCPCB](https://jlcpcb.com/)'s JLC04161H-7628 impedance controlled board material, with 1 oz. outer copper weight, 0.5 oz. inner copper weight, and 1.6mm board thickness**. The reason why this matters is the use of an external antenna: a short trace connects the antenna (ANT) pin of the Nina B301 to a u.FL connector. This trace must be matched at 50&Omega;. Using JLCPCB's impedance calculator, the width of the trace was determined to be 0.350mm for the given board specifications. If you are unable to order a board with these specifications, you may suffer from degraded antenna performance, though the effect is suspected to be small as the antenna trace is only 0.75mm long (compare this to a wavelength of 122.45mm at 2.45GHz). **Note that the board width of 1.6mm is essential for the pogo pin connection to the gripper.**
