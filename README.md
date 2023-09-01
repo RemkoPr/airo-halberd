@@ -7,9 +7,8 @@ The Halberd coupling, named after the characteristic shape of its PCB, is a repl
 This repo contains KiCad board files and SolidWorks casing design files of the project. See below for a guide from ordering to usage. 
 <BR CLEAR="all">
 
-<img align="left" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
-<img align="left" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
-<BR CLEAR="all">
+<img align="right" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
+<img align="right" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
 ## Features
 TODO
