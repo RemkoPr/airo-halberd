@@ -3657,7 +3657,7 @@
   (symbol (lib_id "Device:C") (at 255.27 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02baee4b-d709-4a8f-9cc0-05da8ab94620)
-    (property "Reference" "#C9" (at 251.46 184.15 0)
+    (property "Reference" "#C3" (at 251.46 184.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 251.46 186.69 0)
@@ -3674,7 +3674,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#C9") (unit 1)
+          (reference "#C3") (unit 1)
         )
       )
     )
@@ -3683,7 +3683,7 @@
   (symbol (lib_id "Device:Fuse") (at 102.87 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09b0b3f3-61fd-4730-b4bd-d8af838ba231)
-    (property "Reference" "#F2" (at 100.33 65.405 0)
+    (property "Reference" "#F1" (at 100.33 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LF035-30" (at 100.33 67.945 0)
@@ -3709,7 +3709,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#F2") (unit 1)
+          (reference "#F1") (unit 1)
         )
       )
     )
@@ -3718,7 +3718,7 @@
   (symbol (lib_id "power:GND") (at 182.245 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1811d03f-5859-4a9a-960a-de9220791a23)
-    (property "Reference" "#PWR05" (at 182.245 147.32 0)
+    (property "Reference" "#PWR014" (at 182.245 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.245 146.05 0)
@@ -3734,7 +3734,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3743,7 +3743,7 @@
   (symbol (lib_id "power:GND") (at 367.03 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fcfaa61-3392-4a1d-93ce-3e1f96af5eb9)
-    (property "Reference" "#PWR026" (at 367.03 276.86 0)
+    (property "Reference" "#PWR023" (at 367.03 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.03 274.32 0)
@@ -3759,7 +3759,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3798,7 +3798,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:1987724") (at 530.86 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29f3c775-78b0-4dda-afea-52cc6e699fba)
-    (property "Reference" "J7" (at 547.37 216.535 0)
+    (property "Reference" "J4" (at 547.37 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1987724" (at 547.37 219.075 0)
@@ -3836,7 +3836,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J7") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3845,7 +3845,7 @@
   (symbol (lib_id "Device:D_Zener") (at 461.01 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a5dfe9a-2533-460d-9c36-4989c749fc32)
-    (property "Reference" "D1" (at 463.55 148.59 90)
+    (property "Reference" "D4" (at 463.55 148.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DIODE" (at 463.55 151.13 90)
@@ -3871,7 +3871,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "test_reverse_polarity"
@@ -3885,7 +3885,7 @@
   (symbol (lib_id "pspice:DIODE") (at 215.9 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2db87b42-ea98-4b5a-a644-3ffd0597ccdd)
-    (property "Reference" "D6" (at 215.9 121.92 0)
+    (property "Reference" "D2" (at 215.9 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S1MSWFQ-7" (at 215.9 124.46 0)
@@ -3902,7 +3902,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "D6") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3911,7 +3911,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:10PIN_HEADER") (at 536.575 356.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 311d3d56-f894-454b-a61d-c216e58aa0fd)
-    (property "Reference" "J10" (at 541.655 340.36 0)
+    (property "Reference" "J8" (at 541.655 340.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10PIN_HEADER" (at 541.655 342.9 0)
@@ -3936,7 +3936,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J10") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -3945,7 +3945,7 @@
   (symbol (lib_id "Device:C") (at 264.16 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3566f189-9d56-443c-af18-8a6c133714a5)
-    (property "Reference" "C12" (at 267.97 131.445 0)
+    (property "Reference" "C10" (at 267.97 131.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 267.97 133.985 0)
@@ -3962,7 +3962,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3971,7 +3971,7 @@
   (symbol (lib_id "power:GND") (at 120.65 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36ddbc86-d820-404e-ab9d-fa6b5fe5eca7)
-    (property "Reference" "#PWR014" (at 120.65 247.65 0)
+    (property "Reference" "#PWR07" (at 120.65 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 246.38 0)
@@ -3987,7 +3987,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3996,7 +3996,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:10PIN_HEADER") (at 537.21 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3941d97b-234c-4545-9d5e-35bacf4bf79c)
-    (property "Reference" "J4" (at 542.29 294.64 0)
+    (property "Reference" "J10" (at 542.29 294.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10PIN_HEADER" (at 542.29 297.18 0)
@@ -4021,7 +4021,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J4") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -4030,7 +4030,7 @@
   (symbol (lib_id "power:GND") (at 130.81 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ad0fa59-6b6a-4b68-88b9-ec897e8d0dcc)
-    (property "Reference" "#PWR03" (at 130.81 149.86 0)
+    (property "Reference" "#PWR09" (at 130.81 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 148.59 0)
@@ -4046,7 +4046,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4055,7 +4055,7 @@
   (symbol (lib_id "power:GND") (at 168.91 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b1ade50-2a28-4c05-bdc5-df4999da8dcb)
-    (property "Reference" "#PWR017" (at 168.91 208.28 0)
+    (property "Reference" "#PWR013" (at 168.91 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 207.01 0)
@@ -4071,7 +4071,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4080,7 +4080,7 @@
   (symbol (lib_id "power:GND") (at 264.16 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44424568-a1d2-4d1a-9791-a3d2e28a00c9)
-    (property "Reference" "#PWR016" (at 264.16 144.78 0)
+    (property "Reference" "#PWR019" (at 264.16 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 143.51 0)
@@ -4096,7 +4096,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4105,7 +4105,7 @@
   (symbol (lib_id "Device:D_Zener") (at 478.79 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 478b2617-cf9e-440f-abef-015ea6c145c9)
-    (property "Reference" "D2" (at 481.33 137.16 90)
+    (property "Reference" "D5" (at 481.33 137.16 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DIODE" (at 481.33 139.7 90)
@@ -4131,7 +4131,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "test_reverse_polarity"
@@ -4145,7 +4145,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:10PIN_HEADER") (at 537.21 279.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 481313d8-9b63-4a72-900d-da0e74b15b4d)
-    (property "Reference" "J3" (at 542.29 262.89 0)
+    (property "Reference" "J9" (at 542.29 262.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10PIN_HEADER" (at 542.29 265.43 0)
@@ -4170,7 +4170,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J3") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4179,7 +4179,7 @@
   (symbol (lib_id "RobotiqWristCoupling:BSS138") (at 363.22 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f1878e9-2378-4be2-977d-da2db521d756)
-    (property "Reference" "Q5" (at 370.84 265.43 0)
+    (property "Reference" "Q4" (at 370.84 265.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138K-13" (at 368.3 269.24 0)
@@ -4209,7 +4209,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q5") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -4218,7 +4218,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:1987724") (at 530.86 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f918160-22b1-400c-96a8-36c81838b708)
-    (property "Reference" "J6" (at 547.37 226.695 0)
+    (property "Reference" "J5" (at 547.37 226.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1987724" (at 547.37 229.235 0)
@@ -4256,7 +4256,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -4265,7 +4265,7 @@
   (symbol (lib_id "power:GND") (at 516.89 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55803817-a283-4bf4-93c1-e86268017289)
-    (property "Reference" "#PWR027" (at 516.89 212.09 0)
+    (property "Reference" "#PWR025" (at 516.89 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 516.89 210.82 0)
@@ -4281,7 +4281,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4290,7 +4290,7 @@
   (symbol (lib_id "Device:C") (at 154.94 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56368422-0472-4c6e-bc56-4fccf9e7665b)
-    (property "Reference" "C11" (at 158.75 189.865 0)
+    (property "Reference" "C6" (at 158.75 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 158.75 192.405 0)
@@ -4307,7 +4307,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C11") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4316,7 +4316,7 @@
   (symbol (lib_id "Device:R") (at 445.77 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56772da0-ed87-4683-81b7-cd2f33c41178)
-    (property "Reference" "R2" (at 448.31 166.37 0)
+    (property "Reference" "R10" (at 448.31 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50k" (at 448.31 168.91 0)
@@ -4339,7 +4339,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R2") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4348,7 +4348,7 @@
   (symbol (lib_id "power:GND") (at 153.67 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58b457f2-6ce7-4c4f-9534-afc4e96bd2fd)
-    (property "Reference" "#PWR04" (at 153.67 137.16 0)
+    (property "Reference" "#PWR010" (at 153.67 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 135.89 0)
@@ -4364,7 +4364,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4373,7 +4373,7 @@
   (symbol (lib_id "Device:LED_RGBA") (at 344.17 242.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ec33e81-e72a-46ff-8a8d-45e4975dafe8)
-    (property "Reference" "D5" (at 344.17 233.68 90)
+    (property "Reference" "D3" (at 344.17 233.68 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RGBA" (at 344.17 236.22 90)
@@ -4392,7 +4392,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4401,7 +4401,7 @@
   (symbol (lib_id "Device:C") (at 127 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f0264b4-8436-480b-9319-837425cd83a0)
-    (property "Reference" "C10" (at 130.81 189.865 0)
+    (property "Reference" "C5" (at 130.81 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 130.81 192.405 0)
@@ -4418,7 +4418,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C10") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4427,7 +4427,7 @@
   (symbol (lib_id "pspice:CAP") (at 160.02 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 603024f9-5129-430b-9eb8-e3b9ed6a5cb7)
-    (property "Reference" "C4" (at 160.02 130.175 90)
+    (property "Reference" "C7" (at 160.02 130.175 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 160.02 132.08 90)
@@ -4444,7 +4444,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4453,7 +4453,7 @@
   (symbol (lib_id "Device:R") (at 379.73 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 631fa76e-a6c9-49aa-a635-f61c9d360e8c)
-    (property "Reference" "R10" (at 382.27 194.945 0)
+    (property "Reference" "R7" (at 382.27 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 382.27 197.485 0)
@@ -4470,7 +4470,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4479,7 +4479,7 @@
   (symbol (lib_id "pspice:CAP") (at 130.81 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64388b75-7a65-4894-a04e-576d8f373aba)
-    (property "Reference" "#C3" (at 125.73 136.525 0)
+    (property "Reference" "#C2" (at 125.73 136.525 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10µF" (at 125.73 139.065 0)
@@ -4496,7 +4496,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#C3") (unit 1)
+          (reference "#C2") (unit 1)
         )
       )
     )
@@ -4505,7 +4505,7 @@
   (symbol (lib_id "power:GND") (at 255.27 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64fb5a60-ebfc-44f1-a4df-8cc4ec2ecf4b)
-    (property "Reference" "#PWR09" (at 255.27 196.85 0)
+    (property "Reference" "#PWR017" (at 255.27 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 195.58 0)
@@ -4521,7 +4521,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4612,7 +4612,7 @@
   (symbol (lib_id "Device:R") (at 367.03 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ae546e6-316f-4de2-87a2-3f4492bc107c)
-    (property "Reference" "R7" (at 369.57 255.905 0)
+    (property "Reference" "R6" (at 369.57 255.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "325" (at 369.57 258.445 0)
@@ -4629,7 +4629,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4638,7 +4638,7 @@
   (symbol (lib_id "power:GND") (at 109.22 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7badf8fe-7deb-4e34-acf5-829187014589)
-    (property "Reference" "#PWR07" (at 109.22 247.65 0)
+    (property "Reference" "#PWR05" (at 109.22 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 246.38 0)
@@ -4654,7 +4654,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4663,7 +4663,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 102.87 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f358bfe-02cf-4823-89aa-bdd98a6aa312)
-    (property "Reference" "#C2" (at 99.06 54.356 0)
+    (property "Reference" "#C1" (at 99.06 54.356 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TCNZ476M035R0100E" (at 99.06 56.896 0)
@@ -4680,7 +4680,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#C2") (unit 1)
+          (reference "#C1") (unit 1)
         )
       )
     )
@@ -4689,7 +4689,7 @@
   (symbol (lib_id "power:GND") (at 242.57 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84206dfd-768c-49ec-9afe-41181084d4d7)
-    (property "Reference" "#PWR08" (at 242.57 266.7 0)
+    (property "Reference" "#PWR016" (at 242.57 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 265.43 0)
@@ -4705,7 +4705,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4714,7 +4714,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:PRTR5V0U2AX,215") (at 125.73 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 848692a1-1a5c-4376-b0b3-bfad4e44a96b)
-    (property "Reference" "D3" (at 134.62 220.98 0)
+    (property "Reference" "D1" (at 134.62 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PRTR5V0U2AX,215" (at 134.62 223.52 0)
@@ -4733,7 +4733,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4742,7 +4742,7 @@
   (symbol (lib_id "RobotiqWristCoupling:BSS138") (at 340.36 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 868da448-0509-4492-b07d-8074e30403ff)
-    (property "Reference" "Q4" (at 347.98 265.43 0)
+    (property "Reference" "Q3" (at 347.98 265.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138K-13" (at 345.44 269.24 0)
@@ -4772,7 +4772,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -4816,7 +4816,7 @@
   (symbol (lib_id "Device:R") (at 120.65 234.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86fca772-22fd-41f5-b16a-e5b6db32c53e)
-    (property "Reference" "R5" (at 123.19 233.68 0)
+    (property "Reference" "R1" (at 123.19 233.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 123.19 236.22 0)
@@ -4833,7 +4833,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4933,7 +4933,7 @@
   (symbol (lib_id "Device:R") (at 440.69 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8925facd-0d9f-4583-ab89-bfba7f9c2340)
-    (property "Reference" "R1" (at 443.23 148.5899 0)
+    (property "Reference" "R9" (at 443.23 148.5899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 443.23 151.1299 0)
@@ -4956,7 +4956,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R1") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4965,7 +4965,7 @@
   (symbol (lib_id "power:GND") (at 114.3 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8953af89-4d99-4845-a3fb-fe71d95ba07f)
-    (property "Reference" "#PWR011" (at 114.3 220.98 0)
+    (property "Reference" "#PWR06" (at 114.3 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 219.71 0)
@@ -4981,7 +4981,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4990,7 +4990,7 @@
   (symbol (lib_id "power:GND") (at 102.87 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d717bf7-ed16-40f2-9e63-9c82537a5a34)
-    (property "Reference" "#PWR01" (at 102.87 81.28 0)
+    (property "Reference" "#PWR04" (at 102.87 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 80.01 0)
@@ -5006,7 +5006,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -5015,7 +5015,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:RN2903") (at 331.47 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d7886ba-ccf4-473f-83d6-d2dce055e145)
-    (property "Reference" "Q6" (at 351.79 181.9275 0)
+    (property "Reference" "Q2" (at 351.79 181.9275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RN2903" (at 351.79 184.4675 0)
@@ -5036,7 +5036,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q6") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -5045,7 +5045,7 @@
   (symbol (lib_id "power:GND") (at 127 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 909cdb55-cf79-46e1-b410-31b2577b1485)
-    (property "Reference" "#PWR012" (at 127 200.66 0)
+    (property "Reference" "#PWR08" (at 127 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 199.39 0)
@@ -5061,7 +5061,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5070,7 +5070,7 @@
   (symbol (lib_id "Device:R") (at 344.17 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fb64301-fdfc-4278-b81d-b8526a37f430)
-    (property "Reference" "R6" (at 346.71 255.27 0)
+    (property "Reference" "R4" (at 346.71 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 346.71 257.81 0)
@@ -5087,7 +5087,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5122,7 +5122,7 @@
   (symbol (lib_id "power:GND") (at 322.58 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a942e60b-adef-41e4-a15b-0868c4dd11ed)
-    (property "Reference" "#PWR024" (at 322.58 276.86 0)
+    (property "Reference" "#PWR021" (at 322.58 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 274.32 0)
@@ -5138,7 +5138,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5147,7 +5147,7 @@
   (symbol (lib_id "Device:R") (at 450.85 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab017d07-e26f-401c-baad-fa37d19e0838)
-    (property "Reference" "R3" (at 453.39 148.5899 0)
+    (property "Reference" "R11" (at 453.39 148.5899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 453.39 151.1299 0)
@@ -5170,7 +5170,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R3") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5179,7 +5179,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:10PIN_HEADER") (at 536.575 332.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adbd240c-2c40-41a2-80f8-16deec422c2c)
-    (property "Reference" "J9" (at 541.655 316.23 0)
+    (property "Reference" "J7" (at 541.655 316.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10PIN_HEADER" (at 541.655 318.77 0)
@@ -5204,7 +5204,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J9") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -5213,7 +5213,7 @@
   (symbol (lib_id "Device:C") (at 425.45 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b05434e0-c926-40c1-b560-2d2e3c3e170a)
-    (property "Reference" "C1" (at 429.26 137.16 0)
+    (property "Reference" "C12" (at 429.26 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "15u" (at 429.26 139.7 0)
@@ -5236,7 +5236,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C1") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5245,7 +5245,7 @@
   (symbol (lib_id "power:GND") (at 266.7 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b074798d-1753-41b2-b60a-1fd7e837253e)
-    (property "Reference" "#PWR010" (at 266.7 196.85 0)
+    (property "Reference" "#PWR020" (at 266.7 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 195.58 0)
@@ -5261,7 +5261,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5296,7 +5296,7 @@
   (symbol (lib_id "Device:R") (at 398.78 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc6255af-8f33-4601-990a-34d0823f17e3)
-    (property "Reference" "R11" (at 401.32 194.945 0)
+    (property "Reference" "R8" (at 401.32 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 401.32 197.485 0)
@@ -5313,7 +5313,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5322,7 +5322,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:RN2903") (at 383.54 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bccda4ca-62b3-4b9e-a53e-960afab1c841)
-    (property "Reference" "Q7" (at 403.86 181.9275 0)
+    (property "Reference" "Q5" (at 403.86 181.9275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RN2903" (at 403.86 184.4675 0)
@@ -5343,7 +5343,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q7") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -5352,7 +5352,7 @@
   (symbol (lib_id "RobotiqWristCoupling:BSS138") (at 318.77 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdc6d36c-ebc6-434c-92ec-09ff1b8ba897)
-    (property "Reference" "Q3" (at 326.39 265.43 0)
+    (property "Reference" "Q1" (at 326.39 265.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138K-13" (at 323.85 269.24 0)
@@ -5382,7 +5382,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q3") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5391,7 +5391,7 @@
   (symbol (lib_id "Device:C") (at 90.17 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c293cbe4-1b55-44b0-9f0a-4428cb3ad45b)
-    (property "Reference" "C8" (at 93.98 132.715 0)
+    (property "Reference" "C3" (at 93.98 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 93.98 135.255 0)
@@ -5408,7 +5408,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -5417,7 +5417,7 @@
   (symbol (lib_id "Device:R") (at 327.66 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2c89a8c-dc9f-448f-9474-18d767ca4886)
-    (property "Reference" "R8" (at 330.2 194.945 0)
+    (property "Reference" "R3" (at 330.2 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 330.2 197.485 0)
@@ -5434,7 +5434,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R8") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5443,7 +5443,7 @@
   (symbol (lib_id "Device:C") (at 67.31 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7129e52-0367-4cc9-90e0-4de89f8402b8)
-    (property "Reference" "C2" (at 71.12 132.715 0)
+    (property "Reference" "C1" (at 71.12 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 71.12 135.255 0)
@@ -5460,7 +5460,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5469,7 +5469,7 @@
   (symbol (lib_id "power:GND") (at 344.17 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9f75364-8e6b-4bf4-bc45-842fb781a938)
-    (property "Reference" "#PWR025" (at 344.17 276.86 0)
+    (property "Reference" "#PWR022" (at 344.17 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.17 274.32 0)
@@ -5485,7 +5485,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5494,7 +5494,7 @@
   (symbol (lib_id "Device:R") (at 346.71 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca2cf755-5fe7-45be-97c9-0fad436c80c2)
-    (property "Reference" "R9" (at 349.25 194.945 0)
+    (property "Reference" "R5" (at 349.25 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 349.25 197.485 0)
@@ -5511,7 +5511,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R9") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -5520,7 +5520,7 @@
   (symbol (lib_id "power:GND") (at 196.85 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb938164-8064-4dc3-978a-9d20eb9ffab3)
-    (property "Reference" "#PWR06" (at 196.85 147.32 0)
+    (property "Reference" "#PWR015" (at 196.85 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 146.05 0)
@@ -5536,7 +5536,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5545,7 +5545,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:1987724") (at 530.86 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfa9ceee-901d-490c-8741-bc4eb165c74d)
-    (property "Reference" "J5" (at 547.37 236.855 0)
+    (property "Reference" "J6" (at 547.37 236.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1987724" (at 547.37 239.395 0)
@@ -5583,7 +5583,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -5592,7 +5592,7 @@
   (symbol (lib_id "RobotiqWristCoupling:BSS138") (at 469.9 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4bce2e3-5239-41a8-831c-2f8f8a6fa36c)
-    (property "Reference" "Q1" (at 477.52 157.48 0)
+    (property "Reference" "Q6" (at 477.52 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138K-13/BSS159NH6327XTSA2" (at 474.98 161.29 0)
@@ -5622,7 +5622,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q1") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -5631,7 +5631,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:BUTTON") (at 168.91 196.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d540666c-148c-4650-86f0-7c6f49039aa6)
-    (property "Reference" "B2" (at 166.37 197.485 90)
+    (property "Reference" "B1" (at 166.37 197.485 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 168.91 196.85 0)
@@ -5649,7 +5649,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "B2") (unit 1)
+          (reference "B1") (unit 1)
         )
       )
     )
@@ -5692,7 +5692,7 @@
   (symbol (lib_id "power:GND") (at 67.31 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d82187f0-455e-41fc-b650-178bf707edc8)
-    (property "Reference" "#PWR021" (at 67.31 148.59 0)
+    (property "Reference" "#PWR01" (at 67.31 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 147.32 0)
@@ -5708,7 +5708,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5717,7 +5717,7 @@
   (symbol (lib_id "pspice:CAP") (at 196.85 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d93d21cd-5bce-4505-88b4-48a61f7556ea)
-    (property "Reference" "C6" (at 201.295 133.3499 0)
+    (property "Reference" "C9" (at 201.295 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 201.295 135.8899 0)
@@ -5734,7 +5734,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C6") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5743,7 +5743,7 @@
   (symbol (lib_id "power:GND") (at 530.86 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbf357fe-7c07-43ce-8952-89a9e2c33836)
-    (property "Reference" "#PWR018" (at 530.86 248.92 0)
+    (property "Reference" "#PWR027" (at 530.86 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 530.86 247.65 0)
@@ -5759,7 +5759,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5768,7 +5768,7 @@
   (symbol (lib_id "power:GND") (at 78.74 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6d3b866-4870-46b2-9aa7-5736cccbac96)
-    (property "Reference" "#PWR022" (at 78.74 148.59 0)
+    (property "Reference" "#PWR02" (at 78.74 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 147.32 0)
@@ -5784,7 +5784,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5793,7 +5793,7 @@
   (symbol (lib_id "Device:C") (at 78.74 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8599d64-999f-44a7-9154-c4bd557f3459)
-    (property "Reference" "C3" (at 82.55 132.715 0)
+    (property "Reference" "C2" (at 82.55 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 82.55 135.255 0)
@@ -5810,7 +5810,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5819,7 +5819,7 @@
   (symbol (lib_id "power:GND") (at 445.77 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebcf3ce5-8621-4ba1-8069-46710024da7d)
-    (property "Reference" "#PWR02" (at 445.77 184.15 0)
+    (property "Reference" "#PWR024" (at 445.77 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 445.77 181.61 0)
@@ -5835,7 +5835,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5844,7 +5844,7 @@
   (symbol (lib_id "pspice:CAP") (at 182.245 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eda1b452-39e4-4739-a5de-33dfbb28b273)
-    (property "Reference" "C5" (at 186.69 133.3499 0)
+    (property "Reference" "C8" (at 186.69 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 186.69 135.8899 0)
@@ -5861,7 +5861,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5870,7 +5870,7 @@
   (symbol (lib_id "power:GND") (at 90.17 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eee87488-3aa1-4327-aa00-1b4e423d6213)
-    (property "Reference" "#PWR023" (at 90.17 148.59 0)
+    (property "Reference" "#PWR03" (at 90.17 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 147.32 0)
@@ -5886,7 +5886,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5895,7 +5895,7 @@
   (symbol (lib_id "Device:C") (at 266.7 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f180c7dd-75a7-4477-958d-fdf4e2e3bd04)
-    (property "Reference" "C9" (at 270.51 182.245 0)
+    (property "Reference" "C11" (at 270.51 182.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 270.51 184.785 0)
@@ -5912,7 +5912,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5921,7 +5921,7 @@
   (symbol (lib_id "power:GND") (at 154.94 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1cfb102-681b-41a6-867e-dd00f5c97972)
-    (property "Reference" "#PWR013" (at 154.94 200.66 0)
+    (property "Reference" "#PWR011" (at 154.94 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 199.39 0)
@@ -5937,7 +5937,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5946,7 +5946,7 @@
   (symbol (lib_id "power:GND") (at 525.78 275.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2712caf-dbfc-4a86-8d4d-a198709cfadc)
-    (property "Reference" "#PWR020" (at 525.78 281.94 0)
+    (property "Reference" "#PWR026" (at 525.78 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 525.78 279.4 0)
@@ -5962,7 +5962,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5971,7 +5971,7 @@
   (symbol (lib_id "power:GND") (at 256.54 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8f230c1-2fc2-458d-9844-efbfde3f23c2)
-    (property "Reference" "#PWR015" (at 256.54 144.78 0)
+    (property "Reference" "#PWR018" (at 256.54 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 143.51 0)
@@ -5987,7 +5987,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5996,7 +5996,7 @@
   (symbol (lib_id "power:GND") (at 166.37 220.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9c92c59-7e6f-42a4-93fb-4570c5f62cc4)
-    (property "Reference" "#PWR019" (at 166.37 226.695 0)
+    (property "Reference" "#PWR012" (at 166.37 226.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 224.155 0)
@@ -6012,7 +6012,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -6021,7 +6021,7 @@
   (symbol (lib_name "IRLML9301_1") (lib_id "Transistor_FET:IRLML9301") (at 490.22 135.89 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb0e4888-1999-41b5-af63-5b091cc22e57)
-    (property "Reference" "Q2" (at 490.22 127 90)
+    (property "Reference" "Q7" (at 490.22 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Si7469DP" (at 490.22 129.54 90)
@@ -6054,7 +6054,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "Q2") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
       (project "test_reverse_polarity"
@@ -6068,7 +6068,7 @@
   (symbol (lib_id "robotiq_wrist_coupling:1987724") (at 530.86 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb61663d-d649-452e-ae70-d981c9c18e9d)
-    (property "Reference" "J8" (at 547.37 203.835 0)
+    (property "Reference" "J3" (at 547.37 203.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1987724" (at 547.37 206.375 0)
@@ -6106,7 +6106,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "J8") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6115,7 +6115,7 @@
   (symbol (lib_id "Device:R") (at 322.58 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe1c9ae2-b46f-45d5-8e4f-cf27170193ea)
-    (property "Reference" "R4" (at 325.12 255.905 0)
+    (property "Reference" "R2" (at 325.12 255.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "325" (at 325.12 258.445 0)
@@ -6132,7 +6132,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -6141,7 +6141,7 @@
   (symbol (lib_id "Device:C") (at 109.22 234.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe4a5385-c935-40ed-b496-d41949c31ec9)
-    (property "Reference" "C7" (at 113.03 234.315 0)
+    (property "Reference" "C4" (at 113.03 234.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 113.03 236.855 0)
@@ -6158,7 +6158,7 @@
     (instances
       (project "io_coupling_MCU_enhanced"
         (path "/1f6c4902-06bd-4378-bee5-1476d15fc3d7"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
