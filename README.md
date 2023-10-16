@@ -11,7 +11,12 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 <img align="right" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
 ## Features
-TODO
+Our coupling features the safety circuit present on the
+original Robotiq I/O Coupling, augmented with a Nina B301
+microcontroller unit (MCU), capable of communicating wire lessly over Bluetooth Low Energy (BLE) and Wi-Fi. 
+Eight analog pins and 15 digital pins are exposed. 
+An SPI, UART, and two I2C interfaces are supported by a subset of the digital pins. 
+The board is Arduino compatible and programmable over a micro USB interface
 <BR CLEAR="all">
 
 ## Ordering & Assembly
