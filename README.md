@@ -8,7 +8,6 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 <BR CLEAR="all">
 
 <img align="right" width="270" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal.jpeg">
-<img align="right" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 
 ## Features
 Our coupling features the safety circuit present on the
@@ -31,6 +30,11 @@ The below graphic indicates how the different parts fit together.
 ### Programming
 To program the board, first install the [airo-nrf52840-boards](https://github.com/RemkoPr/airo-nrf52840-boards) package in your Arduino IDE. Compile ("Verify") the standard Blink example (File > Examples > 01.Basics > Blink) for the Halberd (I/O Coupling) board. Find the `Blink.ino.with_bootloader.hex` file by marking `compilation` in `File > Preferences > Show verbose output during` and monitoring the console output after compilation. Flash the .hex onto the board using a [JLink EDU Mini](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/), which you can connect to the board via the provided 10-pin 1.27mm pitch header next to the Nina-B301. This will automatically flash the Arduino bootloader, and the green LED should start blinking. From this point on you can program the board straight from the Arduino IDE over a µUSB connection.
 
+<img align="right" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
 ### Mounting
-The Halberd coupling is mounted to your robotic arm just like the Robotiq I/O Coupling would, similarly your Robotiq gripper is bolted to the Halberd just like it would be to the Robotiq I/O Coupling. The Halberd has the same height as the Robotiq I/O Coupling, so there's no need to redefine the robot's tool centre point. Also, the risk of self-collisions is no greater than when using the Robotiq I/O Coupling.
+The Halberd coupling is mounted to your robotic arm just like the Robotiq I/O Coupling would be, 
+similarly your Robotiq gripper is bolted to the Halberd just like it would be to the Robotiq I/O Coupling. 
+The Halberd has the same height as the Robotiq I/O Coupling, 
+so there's no need to redefine the robot's tool centre point. 
+Also, the risk of self-collisions is no greater than when using the Robotiq I/O Coupling.
 
