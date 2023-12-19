@@ -23,7 +23,7 @@ The PCB was designed for **[JLCPCB](https://jlcpcb.com/)'s JLC04161H-7628 impeda
 
 <img align="right" width="300" height="332" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/cable_drawing.png">
 
-A bill of materials (BOM) is included in main folder of this repo, nearly all components can be bought from [Digikey](https://www.digikey.com/). **The cable connecting the coupling to the robot is hard to find: it's an M8 8-pole female 90° circular connector. Many manufacturers provide this, however, usually the pin aligment is along the cable direction, why the Robotiq cable has a 90° angle between the pin aligment divet and the cable direction. So far, I've only found [amissiontech](https://www.amissiontech.com/) to be willing to produce small volumes of this specific connector.** Structural parts can be 3D printed in standard PLA and are found in the SolidWorks/parts_to_print folder.
+A bill of materials (BOM) is included in main folder of this repo, nearly all components can be bought from [Digikey](https://www.digikey.com/). **The cable connecting the coupling to the robot is hard to find: it's an M8 8-pole female 90° circular connector. Many manufacturers provide this, however, usually the pin aligment is along the cable direction, while the Robotiq cable has a 90° angle between the pin aligment divet and the cable direction. So far, I've only found [amissiontech](https://www.amissiontech.com/) to be willing to produce small volumes of this specific connector.** Structural parts can be 3D printed in standard PLA and are found in the SolidWorks/parts_to_print folder.
 The below graphic indicates how the different parts fit together.
 <BR CLEAR="all">
 
