@@ -12841,7 +12841,7 @@
   (gr_text "GND\n" (at 7.72 -4.257 90) (layer "F.SilkS") (tstamp ff7cdda3-0ecb-4724-b14a-9b5296f90972)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Order Impedance Controlled JLC04161H-7628\n(0.3mm ANT trace width corresponds to this)" (at -4.8 -32.7) (layer "Cmts.User") (tstamp 329c791c-9bde-4575-b722-63bc4efaaa82)
+  (gr_text "Order Impedance Controlled JLC04161H-7628\n(0.35mm ANT trace width corresponds to this)" (at -4.8 -32.7) (layer "Cmts.User") (tstamp 329c791c-9bde-4575-b722-63bc4efaaa82)
     (effects (font (size 0.2 0.2) (thickness 0.05) bold) (justify left bottom))
   )
   (gr_text "Hole for earth pin on gripper" (at 59.3344 -6.4262) (layer "Cmts.User") (tstamp 4051523f-7914-408b-9833-dbfe44374d89)
