@@ -3181,7 +3181,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 794e7c51-2f0d-4a3c-8098-4ce584d5d4df)
   )
-  (text "nMOSFET Q2 shorts GS of pMOSFET\nwhen Von is detached, so that \ngate of pMOSFET is rapidly discharged,\notherwise discharging takes about a second.\n(the gate of Q2 is pulled to 24V, as well as \nits drain. Now imagine any possible G-S\nvoltage at Q1 that would allow it to conduct:\nthis voltage would be shorted through the \nQ2 channel). Q2 is thought to be a BSS138, \nwhich is an enhancement mode MOSFET. I argue a \ndepletion mode MOSFET is more appropriate\nand propose a BSS126."
+  (text "nMOSFET Q2 shorts GS of pMOSFET\nwhen Von is detached, so that \ngate of pMOSFET is rapidly discharged,\notherwise discharging takes about a second.\n(the gate of Q2 is pulled to 24V, as well as \nits drain. Now imagine any possible G-S\nvoltage at Q1 that would allow it to conduct:\nthis voltage would be shorted through the \nQ2 channel). Q2 is thought to be a BSS138, \nwhich is an enhancement mode MOSFET. I argue a \ndepletion mode MOSFET is more appropriate\nand propose a BSS156."
     (at 518.16 185.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 81db13b2-3200-4097-b0c8-e79198da1884)
@@ -3232,6 +3232,11 @@
     (at 518.16 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa454f93-cfc2-4838-b129-aa0f0136d46d)
+  )
+  (text "Could be better to output Vbus instead of 5V, \nright now the 5V output is not available when \nonly a microUSB connection is present and \nno 24V source."
+    (at 474.98 233.68 0)
+    (effects (font (size 1.27 1.27) (color 255 19 74 1)) (justify left bottom))
+    (uuid fd98597a-49fb-4f44-89d9-3e3d57436320)
   )
 
   (label "D7" (at 177.8 222.25 0) (fields_autoplaced)
