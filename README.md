@@ -7,9 +7,9 @@ The Halberd coupling ([paper](https://doi.org/10.48550/arXiv.2309.05792)), named
 This repo contains KiCad board files and SolidWorks casing design files of the project. See below for a guide from ordering to usage. 
 <BR CLEAR="all">
 
-<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal_annotated.jpeg">
 
 ## Features
+<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal_annotated.jpeg">
 Our coupling features the safety circuit present on the
 original Robotiq I/O Coupling, augmented with a Nina B301
 microcontroller unit (MCU), capable of communicating wire lessly over Bluetooth Low Energy (BLE) and Wi-Fi. 
