@@ -36,7 +36,7 @@ The below graphic indicates how the different parts fit together.
 ### Programming
 To program the board, first install the [airo-nrf52840-boards](https://github.com/RemkoPr/airo-nrf52840-boards) package in your Arduino IDE. Compile ("Verify") the standard Blink example (File > Examples > 01.Basics > Blink) for the Halberd (I/O Coupling) board. Find the `Blink.ino.with_bootloader.hex` file by marking `compilation` in `File > Preferences > Show verbose output during` and monitoring the console output after compilation. Flash the .hex onto the board using a [JLink EDU Mini](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/), which you can connect to the board via the provided 10-pin 1.27mm pitch header next to the Nina-B301. This will automatically flash the Arduino bootloader, and the green LED should start blinking. From this point on you can program the board straight from the Arduino IDE over a µUSB connection.
 
-#### Debugging
+### Debugging
 If you are connected to a UR robot via an ethernet connection, the Arduino IDE might show the error `Method name - "openPort(); Exception type - Port not found` when you try to upload. To avoid this, disconnect the ethernet cable, restart the Arduino IDE, and upload the code. You can now reconnect the ethernet cable. 
 
 <img align="right" width="206" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/integrated_w_sensor.jpeg">
