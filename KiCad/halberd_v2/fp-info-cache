@@ -1,4 +1,4 @@
-25331176212396073
+25332935533865097
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101324,6 +101324,13 @@ BSS138
 0
 3
 3
+robotiq_wrist_coupling
+CFP2-1FC4-AW
+
+
+0
+5
+4
 robotiq_wrist_coupling
 CL-DA-1CB4-A2T
 

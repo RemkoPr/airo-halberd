@@ -1880,18 +1880,6 @@
 					(type background)
 				)
 			)
-			(arc
-				(start -6.35 0)
-				(mid -4.4901 4.4901)
-				(end 0 6.35)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 0) (xy 0 -43.18)
@@ -1902,6 +1890,18 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(arc
+				(start -6.35 0)
+				(mid -4.4901 4.4901)
+				(end 0 6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(arc
@@ -2102,7 +2102,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 11.43 -12.7 180)
 				(length 5.08)
 				(name "B8"
@@ -2156,7 +2156,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 11.43 -20.32 180)
 				(length 5.08)
 				(name "A8"
@@ -2210,7 +2210,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 11.43 -27.94 180)
 				(length 5.08)
 				(name "B5/CC2"
