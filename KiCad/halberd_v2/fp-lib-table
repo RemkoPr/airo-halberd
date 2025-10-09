@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "robotiq_wrist_coupling")(type "KiCad")(uri "/home/idlab620/AIRO/Code/airo-halberd/KiCad/lib/RobotiqWristCoupling.pretty")(options "")(descr ""))
+)
