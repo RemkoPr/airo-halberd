@@ -1,0 +1,7 @@
+# Do not include KiCad backups
+KiCad/halberd_v1/halberd_v1-backups/
+KiCad/halberd_v2/halberd_v2-backups/
+
+# Vim stuff
+*.swp
+
