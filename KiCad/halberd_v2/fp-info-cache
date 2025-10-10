@@ -1,4 +1,4 @@
-26764651754195943
+26790570997973009
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -77665,6 +77665,27 @@ ArtInChip QFN NoLead
 127
 101
 Package_DFN_QFN
+CDFN-4_2.5x3.2mm_P2.1mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN3225-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
+CDFN-4_2x2.5mm_P1.65mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN2520-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
+CDFN-4_3.2x5mm_P2.54mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=15), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN5032-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
 Cypress_QFN-56-1EP_8x8mm_P0.5mm_EP6.22x6.22mm_ThermalVias
 56-Lead Plastic Quad Flat, No Lead Package (ML) - 8x8x0.9 mm Body [QFN] (see datasheet at http://www.cypress.com/file/138911/download and app note at http://www.cypress.com/file/140006/download)
 QFN 0.5
@@ -80591,6 +80612,13 @@ QFN 0.5
 31
 21
 Package_DFN_QFN
+TDFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm
+TDFN, 6 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+TDFN NoLead
+0
+8
+7
+Package_DFN_QFN
 TDFN-6-1EP_2.5x2.5mm_P0.65mm_EP1.3x2mm
 TDFN, 6 Pin (http://www.nve.com/Downloads/ab3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 TDFN NoLead
@@ -81552,6 +81580,20 @@ Texas WQFN NoLead
 Package_DFN_QFN
 Texas_RUM0016A_WQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm_ThermalVias
 Texas RUM0016A WQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/lmh0074.pdf#page=13), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+31
+17
+Package_DFN_QFN
+Texas_RUM0016E_WQFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm
+Texas RUM0016E WQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd679/qfnd679.pdf?ts=1756465079919), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+21
+17
+Package_DFN_QFN
+Texas_RUM0016E_WQFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm_ThermalVias
+Texas RUM0016E WQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd679/qfnd679.pdf?ts=1756465079919), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas WQFN NoLead
 0
 31
