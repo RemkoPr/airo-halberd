@@ -9940,7 +9940,7 @@
 	)
 	(text "DGND"
 		(exclude_from_sim no)
-		(at 520.7 202.565 0)
+		(at 514.858 202.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10761,7 +10761,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 203.2) (xy 530.86 203.2)
+			(xy 505.46 203.2) (xy 530.86 203.2)
 		)
 		(stroke
 			(width 0)
@@ -11071,7 +11071,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 205.74) (xy 530.86 205.74)
+			(xy 514.35 205.74) (xy 530.86 205.74)
 		)
 		(stroke
 			(width 0)
@@ -11091,7 +11091,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.335 215.9) (xy 530.86 215.9)
+			(xy 514.35 215.9) (xy 530.86 215.9)
 		)
 		(stroke
 			(width 0)
@@ -12001,7 +12001,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 203.2) (xy 516.89 205.74)
+			(xy 505.46 203.2) (xy 505.46 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12311,7 +12311,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 233.68) (xy 222.25 233.68)
+			(xy 209.55 233.68) (xy 226.06 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12411,7 +12411,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.335 218.44) (xy 530.86 218.44)
+			(xy 514.35 218.44) (xy 530.86 218.44)
 		)
 		(stroke
 			(width 0)
@@ -12961,7 +12961,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 236.22) (xy 222.25 236.22)
+			(xy 209.55 236.22) (xy 226.06 236.22)
 		)
 		(stroke
 			(width 0)
@@ -13101,7 +13101,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 238.76) (xy 222.25 238.76)
+			(xy 209.55 238.76) (xy 226.06 238.76)
 		)
 		(stroke
 			(width 0)
@@ -13459,8 +13459,8 @@
 		)
 		(uuid "36322be6-06fe-46f2-b6c0-f124353ee5a1")
 	)
-	(label "SCL1{slash}MOSI"
-		(at 521.335 215.9 0)
+	(label "SCL1{slash}MOSI{slash}D15"
+		(at 514.35 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13539,8 +13539,8 @@
 		)
 		(uuid "423c9a9b-99da-48bb-8b15-8922475e8ae7")
 	)
-	(label "SCL1{slash}MOSI"
-		(at 222.25 236.22 180)
+	(label "SCL1{slash}MOSI{slash}D15"
+		(at 226.06 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13659,7 +13659,7 @@
 		)
 		(uuid "5b47802d-1644-4e60-8bb2-4f1d0935ef84")
 	)
-	(label "SDA1{slash}MISO"
+	(label "SDA1{slash}MISO{slash}D16"
 		(at 342.9 234.315 0)
 		(effects
 			(font
@@ -13819,8 +13819,8 @@
 		)
 		(uuid "71bd3224-af25-4adf-b38d-54fe8536b682")
 	)
-	(label "SDA1{slash}MISO"
-		(at 222.25 238.76 180)
+	(label "SDA1{slash}MISO{slash}D16"
+		(at 226.06 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13949,8 +13949,8 @@
 		)
 		(uuid "820fb327-b127-4c5e-a904-2b9c0b504b63")
 	)
-	(label "SCK"
-		(at 521.335 218.44 0)
+	(label "SCK{slash}D14"
+		(at 514.35 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14009,7 +14009,7 @@
 		)
 		(uuid "8c8b165e-f9e1-49d0-b240-80250793c078")
 	)
-	(label "SCL1{slash}MOSI"
+	(label "SCL1{slash}MOSI{slash}D15"
 		(at 323.85 234.315 0)
 		(effects
 			(font
@@ -14359,8 +14359,8 @@
 		)
 		(uuid "ce64cadd-2377-41f9-9c21-65a574c8f6ae")
 	)
-	(label "SCK"
-		(at 222.25 233.68 180)
+	(label "SCK{slash}D14"
+		(at 226.06 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14509,8 +14509,8 @@
 		)
 		(uuid "e817aaef-cbcc-4d0b-a602-202a71ccebad")
 	)
-	(label "SDA1{slash}MISO"
-		(at 520.7 205.74 0)
+	(label "SDA1{slash}MISO{slash}D16"
+		(at 514.35 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16996,7 +16996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 516.89 205.74 0)
+		(at 505.46 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17005,7 +17005,7 @@
 		(fields_autoplaced yes)
 		(uuid "55803817-a283-4bf4-93c1-e86268017289")
 		(property "Reference" "#PWR025"
-			(at 516.89 212.09 0)
+			(at 505.46 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17014,15 +17014,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 516.89 210.82 0)
+			(at 508 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 516.89 205.74 0)
+			(at 505.46 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17031,7 +17032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 516.89 205.74 0)
+			(at 505.46 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17040,7 +17041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 516.89 205.74 0)
+			(at 505.46 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
