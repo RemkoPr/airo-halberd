@@ -9870,12 +9870,12 @@
 		)
 		(uuid "2424b450-cc11-4f2a-b08a-5bccef9ec9d0")
 	)
-	(text "ORDER JLC04161H-7628 IMPEDANCE CONTROL\n(0.35mm ANT trace width corresponds to this)"
+	(text "[IMPORTANT] Order JLC04161H-7628 impedance controlled board type\n1 oz. outer copper weight, 0.5 oz inner copper weight, \n1.6mm board thickness\n(0.35mm ANT trace width is matched to 50 Ohm for these specs)"
 		(exclude_from_sim no)
-		(at 31.115 34.925 0)
+		(at 32.258 37.084 0)
 		(effects
 			(font
-				(size 5 5)
+				(size 2.54 2.54)
 				(thickness 1)
 				(bold yes)
 				(color 255 0 6 1)
@@ -16663,6 +16663,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C5357940"
+			(at 537.21 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "012db315-bf63-44bc-bd05-0d0a5c804cb8")
 		)
@@ -17654,7 +17663,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C862286"
+		(property "LCSC" "C861563"
 			(at 375.92 226.695 0)
 			(effects
 				(font
@@ -18747,7 +18756,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41431806"
+		(property "LCSC" "C455074"
 			(at 95.25 255.27 0)
 			(effects
 				(font
@@ -19080,7 +19089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robotiq_wrist_coupling:NINA-B301-00B-small-paste"
+		(property "Footprint" "robotiq_wrist_coupling:NINA-B301-00B"
 			(at 180.34 242.57 0)
 			(effects
 				(font
@@ -21079,7 +21088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C862286"
+		(property "LCSC" "C861563"
 			(at 394.97 226.695 0)
 			(effects
 				(font
@@ -21130,7 +21139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 293.0652 139.7 0)
 			(effects
 				(font
@@ -21518,7 +21527,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C862286"
+		(property "LCSC" "C861563"
 			(at 323.85 226.695 0)
 			(effects
 				(font
@@ -21806,7 +21815,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C862286"
+		(property "LCSC" "C861563"
 			(at 342.9 226.695 0)
 			(effects
 				(font
@@ -23313,7 +23322,7 @@
 		(fields_autoplaced yes)
 		(uuid "f180c7dd-75a7-4477-958d-fdf4e2e3bd04")
 		(property "Reference" "C11"
-			(at 237.49 215.9 0)
+			(at 237.49 215.2649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23321,8 +23330,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 237.49 218.44 0)
+		(property "Value" "100nF"
+			(at 237.49 217.8049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
