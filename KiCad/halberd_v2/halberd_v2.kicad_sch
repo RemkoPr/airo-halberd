@@ -23058,7 +23058,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dbeac986-4565-47ae-8512-9152bc6fff35")
 		(property "Reference" "R18"
 			(at 80.01 247.65 90)
