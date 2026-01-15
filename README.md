@@ -11,7 +11,7 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 
 ## Features
 
-<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal_annotated.jpeg">
+<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal_annotated.png">
 
 Our coupling features the safety circuit present on the
 original Robotiq I/O Coupling, augmented with a Nina B301
