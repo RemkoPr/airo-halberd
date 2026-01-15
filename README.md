@@ -2,7 +2,7 @@
 
 # airo-halberd
 
-<img align="left" width="200" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/halberd.jpeg">
+<img align="left" width="200" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/v1/img/halberd_v1.jpeg">
 
 The **Halberd coupling** ([paper](https://doi.org/10.48550/arXiv.2309.05792)), named after its characteristic PCB shape, is a replacement of the Robotiq I/O Coupling enhanced with a Nina B301 microcontroller, developed at [IDLab-AIRO](https://airo.ugent.be/), Ghent University (Belgium), imec. It is particularly suited towards robotic manipulation augmented by tactile sensing in the fingertips: the tactile sensors can be read from the robot wrist, without the need for external power or data cables.
 
@@ -11,7 +11,7 @@ This repo contains KiCad board files and SolidWorks casing design files of the p
 
 ## Features
 
-<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/internal_annotated.jpeg">
+<img align="right" width="291" height="350" src="https://github.com/RemkoPr/airo-halberd/blob/v1/img/internal_annotated_v1.jpeg">
 
 Our coupling features the safety circuit present on the
 original Robotiq I/O Coupling, augmented with a Nina B301
