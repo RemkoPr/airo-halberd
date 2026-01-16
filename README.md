@@ -50,4 +50,4 @@ Also, the risk of self-collisions is no greater than when using the Robotiq I/O 
 
 ### Application notes
 - When reading analog signals, it's best to not use D7-D13 for high-frequency switching (e.g. PWM): the digital noise could couple to the analog traces.
-- SERVO0-SERVO4 (also named D0-D4) are level shifted to 5V. The level shifter is bidirectional, so these pins can be used as digital inputs as well. However, the level shifter has a 4k series resistor at it's output, making it less suited to drive resistive loads as a digital output. 
+- SERVO0-SERVO3 (also named D0-D3) are level shifted to 5V. The level shifter is bidirectional, so these pins can be used as digital inputs as well. However, the level shifter has a 4k series resistor at it's output, making it less suited to drive resistive loads as a digital output. 
