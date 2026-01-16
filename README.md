@@ -47,3 +47,7 @@ similarly your Robotiq gripper is bolted to the Halberd just like it would be to
 The Halberd has the same height as the Robotiq I/O Coupling, 
 so there's no need to redefine the robot's tool centre point. 
 Also, the risk of self-collisions is no greater than when using the Robotiq I/O Coupling.
+
+### Application notes
+- When reading analog signals, it's best to not use D7-D13 for high-frequency switching (e.g. PWM): the digital noise could couple to the analog traces.
+- SERVO0-SERVO4 (also named D0-D4) are level shifted to 5V. The level shifter is bidirectional, so these pins can be used as digital inputs as well. However, the level shifter has a 4k series resistor at it's output, making it less suited to drive resistive loads as a digital output. 
