@@ -1,6 +1,6 @@
 
 
-# airo-halberd
+# ** Dev branch, see the main branch for the v2 source files **
 
 <img align="left" width="200" height="281" src="https://github.com/RemkoPr/airo-halberd/blob/main/img/halberd.jpeg">
 
