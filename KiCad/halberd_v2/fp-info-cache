@@ -1,4 +1,4 @@
-25394468678137733
+25372918245613748
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101275,69 +101275,55 @@ Varistor VF
 0
 2
 2
-accelnet
-ADDR_SELECT
-
-
-0
-3
-3
-accelnet
-HOLE0.1
+eronda
+CIRC_PAD
 
 
 0
 1
 1
-accelnet
-MSOP-8
+eronda
+SOIC127P600X175-8N
 
 
 0
 8
 8
-accelnet
-MSOP-10_MS
+eronda
+SOLDER_HOLE
 
 
 0
-10
-10
-accelnet
-PQFN50P200X200100-12N
+1
+1
+eronda
+SOLDER_HOLE_x4
 
 
 0
-12
-12
-accelnet
-SOT-6_SC_LIT-M
-
-LTC4311CSC6-TRMPBF 
-0
-6
-6
-clotheshangur
-3PAD
+4
+4
+eronda
+SOT-23
 
 
 0
 3
 3
-clotheshangur
-4PAD
+eronda
+SOT-23-3
 
 
 0
-4
-4
-clotheshangur
-SOIC180P460X187-4N
+3
+3
+eronda
+SOT95P270X145-6N
 
 
 0
-4
-4
+6
+6
 robotiq_wrist_coupling
 10PIN_1.27PITCH
 
@@ -101378,7 +101364,7 @@ robotiq_wrist_coupling
 1987724-1
 Connector
 0
-2
+6
 2
 robotiq_wrist_coupling
 2337019-1 µCOAX
@@ -101483,7 +101469,7 @@ NINA-B301-00B
 
 
 0
-67
+97
 67
 robotiq_wrist_coupling
 NINA-B301-00B-small-paste
@@ -101693,7 +101679,7 @@ SEG0_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG2_S4
@@ -101707,7 +101693,7 @@ SEG2_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG4_S4
@@ -101721,7 +101707,7 @@ SEG4_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG6_S4
@@ -101735,56 +101721,56 @@ SEG6_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG8_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG10_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG12_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG14_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG16_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG18_S6
 
 
 0
-4
+6
 2
 seahorse
 SEG20_S6
 
 
 0
-4
+6
 2
 seahorse
 Shielded_Electrode
@@ -101871,33 +101857,12 @@ viband
 3
 3
 viband
-APTS012A0X3-SRZ
-
-
-0
-10
-10
-viband
 MOUNTING_HOLE
 
 
 0
 0
 0
-viband
-POWER_PAD
-
-
-0
-1
-1
-viband
-PULLUPDOWN
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
 viband
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -101961,10 +101926,3 @@ TO127P1524X465-8N
 0
 8
 8
-viband
-XT30U
-
-
-0
-2
-2
